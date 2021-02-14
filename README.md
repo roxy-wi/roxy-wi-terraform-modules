@@ -1,4 +1,5 @@
 # haproxy-wi-terraform-modules
-Provisioning terraform modules for HAProxy-WI
+DigitalOcean module for server provisioning
 
-Choose the module you need in the branches.
+More detail you may read [here](https://haproxy-wi.org/description.py?description=provisioning)
+
