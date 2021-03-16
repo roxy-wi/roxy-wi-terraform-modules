@@ -8,6 +8,7 @@ resource "aws_instance" "hapwi" {
   root_block_device {
     delete_on_termination = var.delete_on_termination
     volume_size           = var.volume_size
+    volume_type           = var.volume_type
   }
   tags = {
     Name = var.name

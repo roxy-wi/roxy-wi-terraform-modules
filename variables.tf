@@ -38,6 +38,10 @@ variable "volume_size" {
   type    = number
   default = 10
 }
+variable "volume_type" {
+  type = string
+  default = "gp2"
+}
 variable "delete_on_termination" {
   type = bool
   default = true
