@@ -9,7 +9,7 @@ resource "gcore_volume" "boot_volume" {
 
 resource "gcore_instance" "hapwi" {
   flavor_id       = var.instance_type
-  name_templates  = [lookup(var.name_templates, var.region)]
+  name            = var.name
   keypair_name    = var.ssh_key_name
 
   volume {
